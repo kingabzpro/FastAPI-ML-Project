@@ -12,4 +12,3 @@ data_dick.keys()
 print(article.text)
 print(data_dick.keys())
 print(list(data_dick["ents"][1].values())[0])
-
