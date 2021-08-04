@@ -1,20 +1,18 @@
 import requests
 
 response = requests.get("https://93t2gn.deta.dev/")
-header = {"accept: application/json", "Content-Type: application/json"}
+header = {"accept": "application/json", "Content-Type": "application/json"}
 print(response.text)
 params = [
     {
-        "content": "Pakistan have won the world cup in 1992",
+        "content": "The 1992 Cricket World Cup was won by Pakistan",
         "comments": ["waooo", "not bad"],
     }
 ]
-article = requests.post("https://93t2gn.deta.dev/article/", json=params)
+article = requests.post("https://93t2gn.deta.dev/article/",headers=header ,json=params)
 
+data_dict = article.json()
 
-data_dick = article.json()
-data_dick.keys()
-print(article.text)
-print(data_dick.keys())
-print(list(data_dick["ents"][1].values())[0])
+print("Label: ",list(data_dict["ents"][1].values())[1])
+print("Text: ",list(data_dict["ents"][1].values())[0])
 
