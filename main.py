@@ -8,7 +8,7 @@ app = FastAPI()
 
 
 @app.get("/")
-def read_mean():
+def read_main():
     return {"message": "Welcome"}
 
 
