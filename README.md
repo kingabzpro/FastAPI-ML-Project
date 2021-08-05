@@ -1,4 +1,5 @@
 # FastAPI ML Project
+![ML_API](https://user-images.githubusercontent.com/36753484/128405811-7babfe1b-96e2-4e2f-8242-38fb08c4a395.jpg)
 
 In this project, we will learn how we can build an application programming interface (API) for your machine learning model and then deploy it with simple code. It took me one hour to learn FastAPI and five minutes to learn how to deploy it to Deta servers. We will also test our API on both local server and remote server using Python Request. Let's go a little bit deeper into the technologies that we are going to use in our project.
 
