@@ -5,6 +5,9 @@ In this project, we will learn how we can build an application programming inter
 
 [![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy)
 
+# Read Medium Article
+[![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://towardsdatascience.com/deploying-your-first-machine-learning-api-1649236c695e)
+
 ## spaCy
 spaCy is more friendly towards application and deployment as compared to the famous NLTK Python library which is used for experimentation and evaluation. spaCy comes with prebuild statistical neural network NLP models with powerful features that are easy to use and implement in your project spaCy. We will be using quite a simple and small prebuilt English model to extract entities from our text.
 ## FastAPI
